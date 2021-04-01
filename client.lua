@@ -34,7 +34,7 @@ RegisterCommand('client:test', function()
     style  =  'message',
     duration  =  11000,
     title  =  'Colors Example',
-    message  =  '^1Red^1 \n^2Green^2 \n^3Yellow^3 \n^4Blue^4\n^5Cyan^5\n^6Purple^6 \n^7White^7 \n^8Orange^8 \n^9Grey^9\n',
+    message  =  '~r~Red~r~ \n ~g~Green~g~ \n ~y~Yellow~y~ \n ~b~Blue~b~ \n ~c~Cyan~c~ \n ~p~Purple~p~ \n ~w~White~w~ \n ~o~Orange~o~ \n ~gy~Grey~gy~',
     sound  =  true
   })
   exports['t-notify']:Custom({
