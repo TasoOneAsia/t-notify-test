@@ -77,6 +77,20 @@ RegisterCommand('client:persist:start2', function()
   })
 end)
 
+RegisterCommand('client:persist:update', function()
+  exports['t-notify']:Persist({
+    id = 'uniquePersistId',
+    step = 'update',
+    options = {
+      style = 'info',
+      title = 'Notification with an Image',
+      message = 'Updated item',
+      sound = true,
+      position = 'top-left'
+    }
+  })
+end)
+
 -- Persist 1 Test end
 RegisterCommand('client:persist:end', function()
   exports['t-notify']:Persist({
